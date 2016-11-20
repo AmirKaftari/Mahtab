@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'yekan';
+    src: url( "fonts/WEBLOGMA_YEKAN.ttf" )
+	format( "truetype" );
+}
+@font-face {
+	font-family:"BYekan";
+	src: url( "fonts/BYekan.eot" );
+	src: url( "fonts/BYekan.ttf" )
+	format( "truetype" );
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('fonts/openSans.woff2') format('woff2');
+}
+
+html{
+  margin: 0;
+}
+body{
+    background: #fff;
+    color: #818285;
+    margin: 0;
+    font-family: yekan, Tahoma, serif;
+    direction: rtl;
+    line-height: 1.5;
+}
+input, select{
+    font-family:inherit ;
+    width: 100%;
+    padding: 5px
+}
+input:focus { outline:none; }
+a{
+    text-decoration: none !important;
+    color: inherit ;
+    outline: 0;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box
+}
+.clear{
+    clear: both;
+}
+table{
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+td{
+    vertical-align: top
+}
+.flexContainer{
+    display: -webkit-box;
+  display: flex;
+  width: 100%;
+}
+.flexItem{
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+    flex:1;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.redColor1{
+    color: #d94949;
+}
+.blueColor1{
+    color: #3facb3;
+}
+.orangeColor1{
+    color: #fdaf40;
+}
+.card {
+    background: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+}
+
+.card-1:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btnLogin{
+    color: #fff;
+    background: #f24646;
+    border: none;
+    border-radius: 5px;
+    height: 2em;
+    background-image: url("../img/ar1.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.txtBlue{
+    color: #0084b4;
+    font-size: 150%;
+}
+.loginBoxLabel{
+    padding: 1em 0;
+}
+.whiteLogin td{
+    vertical-align: middle;
+    text-align: center;
+}
+.whiteLogin td:first-child{
+    width: 90%;
+}
+.whiteLogin img{
+    border-right: 1px solid #e7e7e7;
+    padding: 0 0.5em;
+    width: auto;
+    height: auto;
+}
+.whiteLoginInput{
+    border: none;
+    background: none;
+}
+.whiteLoginParent{
+    background: #fafafa;
+    border-radius: 3px;
+    border:1px solid #e7e7e7;
+    overflow: hidden;
+}
+.label1{
+    color: #aaa;
+    margin-top: 1em;
+}
+.required{
+    display: inline-block;
+    font-size: 150%;
+}
+
+.errorHolder{
+    border-top: 1px solid #ddd;
+    margin-top: 1em;
+}
+.errorHolder div{
+    margin-bottom: .5em 0;
+}
